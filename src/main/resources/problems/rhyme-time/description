@@ -1,0 +1,16 @@
+<p>
+	You work as a poet (though you didn’t even know it). You’re struggling finding words that rhyme with one another and you have a theory that words with more letters in common have a higher likelihood of rhyming.  You want to develop a software program which will give words a score indicating how similar they are to a matching word.
+</p>
+<p>
+	Develop a program which accepts two or more words as parameters.  The first word parameter is the “matching” word.  Word parameters 2 through n are “test” words.  Your program will output integer value “scores” for each test word in order, separated by one space each.
+</p>  
+<p>
+	Scores for test words are determined by the following:
+</p>
+<p>
+<ul>
+	<li>All test word scores initialize at 0.</li>
+	<li>For each character c in the test word, add a point of each instance of c in the matching word. For example, if the matching word was “cat” and the test word was “tantalizing” then 4 would be added to the score because 0 c’s, 2 a’s, and 2 t’s are found in the test word.  If the matching word contains the same letter more than once, add to the score separately for each instance of that letter.  For example, if the matching word “tat” was compared to the test word “tot” then both t’s in the matching word would add 2 points to the score, totaling 4 points.</li> 
+	<li>For each time the matching word appears completely and in order in the test word, add 2 points.Add 2 to the score for each instance of the matching word which occurs completely and in order in the test word.  For example, the matching word “na” occurs completely and in order twice within the test word “banana” so 4 points (2x2) would be added to the score.</li>
+</ul>
+</p>

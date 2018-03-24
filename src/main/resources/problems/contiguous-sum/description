@@ -1,0 +1,10 @@
+<p>
+	Given an array of integers A, find indices i and j such that the sum s of all values inclusive from A[i] to A[j] where 0 <= i <= j < length(A)
+	is the largest possible. Return s.
+</p>
+<p>
+	For example, for the array [-10,2,3,-2,0,5,-15], the largest sum that can be obtained is by adding the values from A[1] to A[5] to make 8; 2 + 3 + -2 + 0 + 5 = 8.
+</p>
+<p>
+	For the array [10, -11, 10], the largest sum that can be obtained is by simply taking the first value A[1], or 10. It isn't 20 because by definition we must include all values between i and j. Choosing A[1] and A[3] would create a sum 10 + -11 + 10 = 9, which is less than just picking A[1].
+</p>

@@ -1,0 +1,4 @@
+<p>To be more efficient when talking to humans, you have started referencing repeated segments of your sentences with the character indices of their original utterance instead of repeating yourself.</p>
+<p>For example, you find yourself saying, "Slashdot has super news for{12,9}rds." which is to be interpreted as "Slashdot has super news for super nerds."</p>
+<p>Your pattern is simple: when your friends hear you say {x, y}, that means go back to index x of the phrase and re-copy the next y characters, starting at the xth.</p>
+<p>Write a solution that will help your colleagues understand you again by decompressing your compressed phrases.</p> 

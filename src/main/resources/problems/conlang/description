@@ -1,0 +1,16 @@
+<p>Conlangs are languages which have been consciously devised for human or human-like communication, instead of having developed naturally. Your team has been contracted by the International Department of Important Online Communications (IDIOT) to create a new conlang (a new language) for the entire world.  You have been assigned to create the IsItAWord test program which will detect whether or not something is a word in this new language.</p> 
+
+<p>The language rules are very simple.  Provided with an alphabet consisting of a series of word components, any combination of full, unscrambled word components is a valid word in the new language.  No other words are valid.</p>
+
+<p>For example, given the following word components:<br/>
+art, green, bat, corn</p>
+
+<p>The following are legitimate words in the new language:<br/>
+art, greenart, greenbatart, cornbat, artbatgreencorn</p>
+
+<p>And the following are NOT legitimate words:<br/>
+rat, grebaten, acorna, green art, cornybat</p>
+
+<p>Your program will accept multiple space-delimited parameters.  The first parameter is the test word.  The entire alphabet of word components make up the rest of the parameters.</p>
+
+<p>Your program will test the test word against the set of word components and return "true" if the test word is a valid word and "false" if the test word is not a valid word.</p>

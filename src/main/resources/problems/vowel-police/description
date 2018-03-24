@@ -1,0 +1,11 @@
+<p>Jerry O'Connell and his sliders find themselves in a world where citizens are paid by the vowel to strip all vowels from words.</p>
+<p>They are paid the following wages:</p>
+<p><ul>
+	<li>For every a, they are paid $1</li>
+	<li>For every e, they are paid $2</li>
+	<li>For every i, they are paid $3</li>
+	<li>For every o, they are paid $4</li>
+	<li>For every u, they are paid $5</li>
+</ul></p>
+<p>Write a solution that will take in any sequence of characters, remove all the vowels (a, e, i, o, u), and return the resulting word and the payment for having removed all the vowels. Delimit the two answers by a space.</p>
+<p>In this alternate universe, y is never a vowel.</p>

@@ -1,0 +1,7 @@
+Exception in thread "main" java.security.AccessControlException: access denied ("java.io.FilePermission" "test.txt" "write")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:457)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkWrite(SecurityManager.java:979)
+	at java.io.File.createNewFile(File.java:1008)
+	at Solution.main(Solution.java:10)

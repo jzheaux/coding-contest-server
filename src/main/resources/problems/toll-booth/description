@@ -1,0 +1,12 @@
+<p>You have been hired to plan for a set of toll booths across an interstate highway. The city wants to 
+earn $n total for people that pass through the entire stretch of taxed highway. They also don't want very many toll
+booths; however, they are constrained by how much they can charge at each toll booth based on its location.</p>
+<p>Design a solution that will take in n, the total number of dollars to reach, followed by a list of numbers that
+are the tax they could exact at each toll booth. Your solution should output m, the fewest number of toll booths in the
+list that can be used to bring the total to exactly n.</p>
+<p>For example, the city wants to charge $10 for driving the entire expanse of highway. They have seven locations where they
+could place toll booths; these could respectively charge $7, $2, $2, $2, $2, $2, and $4. Because the city wants to 
+charge exactly $10, they will need to place no fewer than 4 of the toll booths (2 + 2 + 2 + 4 = 10). In this problem, the
+input is "10 7 2 2 2 2 2 4" and the output is "4".</p>
+<p>If instead the toll booth charges were $7 $2 $2 $2 $2 $2 $3, then the answer would be 2 toll booths (7 + 3 = 10)</p>
+<p>If no combination of toll booths given successfully add up to $n, return -1</p>

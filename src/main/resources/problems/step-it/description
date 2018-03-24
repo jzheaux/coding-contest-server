@@ -1,0 +1,5 @@
+<p>A new exercise video has come out especially for geeks. The instructor, instead of counting by ones, it going to count by an arbitrary value.</p>
+<p>Create a solution that, given the instructor's first number X, last number Y, and step count Z, will state how many steps exercisers will perform in a given set.</p>
+<p>For example, if the instructor starts at 4, ends at 36, and steps by 8, exercisers will have performed 5 steps before moving onto the next step. (The instructor says "4, 12, 20, 28, 36 and rest!")</p>
+<p>The instructor may pick any rational number as the step value, but will always pick positive integers as the starting and ending values.</p>
+<p>If the instructor would never finish counting, given the starting, ending, and step values, return -1.</p>

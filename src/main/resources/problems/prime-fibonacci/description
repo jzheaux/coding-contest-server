@@ -1,0 +1,6 @@
+<p>Consider Venkmann's warning to never cross the streams. Now disregard it.</p>
+<p>In this problem, cross the stream of prime numbers (2, 3, 5, 7, 11, 13, 17, ...)
+ and the stream of fibonacci numbers (1, 1, 2, 3, 5, 8, 13, 21, 34, ...), creating a solution that,
+ given n, will print out the nth prime fibonacci number.</p>
+ <p>For example, the first prime fibonacci number is 2, the fifth is 89, and the eighth is 28657.</p>
+ <p>The P-F series grows very quickly. While the input will remain low, your solution should support P-F numbers larger than 2 billion.</p>

@@ -1,0 +1,13 @@
+<p>You have been hired to create a new spreadsheet application (despite the fact that Microsoft and Google command overwhelming market share).
+Your application should be able to have cells refer to one another and still evaluate correctly. For example, if cell A1 says "A2 + 1" and cell A2 says "3", then cell A1 should correctly evaluate to "4".
+</p>
+<p>
+Create a solution that, given 9 inputs that represent a 3x3 spreadsheet grid (e.g. the 0th element refers to cell A1, the 1st element refers to A2, the 2nd to A3, the 3rd to B1, etc.),
+evaluates all of them, returning a command-delimited list of their values.
+</p>
+<p>If there is a cycle, print out the word "cycle" instead of the comma-delimited list of values.</p>
+<p>
+	The format of the input comma-delimited. Each element of an individual expression is space-delimited, e.g.
+	a1<space>+<space>2,a2<space>-<space>3<space>*<space>b1, ... etc ...
+</p>
+<p>NOTE: Don't worry about order of operations. All tests assume left-to-right evaluation.</p>

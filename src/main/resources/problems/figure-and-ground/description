@@ -1,0 +1,11 @@
+<p>
+	You have been hired to work for the Gutenburg Printing Press. The first day on the job, you arrive to find that someone has stolen a few of the metal letters casts from the tray. 
+	Some nearby paper has what appear to be random words printed on it. Create a solution that will reveal which words on the page were written by the thief.
+</p>
+<p>
+	The input will be, first, the set of letters that are left in the tray, then a space, and then a space-delimited set of words. Your solution should return a space-delimited subset of those words which use all and only the missing letters.
+	(Note: Include only words which use all the missing letters. Words with duplicate letters are admissable.)
+</p>
+<p>
+	For example, in the scenario where you open the drawer and see the letters bdefghijklmnopqrsuvwxyz and see the words cat, act, tack, and at, you can proclaim with Sherlock-Holmes-like confidence that the thief wrote the words cat and act, but not tack and at. Thus, your response would be "cat act".
+</p> 
